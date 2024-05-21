@@ -53,7 +53,6 @@
 🌟 <code>Total In Main Currency</code>: Add field total amount of sale orders according to the company's main currency
 
 <div align="left">
-    <div align="center"><code>Refuse applicant</code></div>
     <a href="https://github.com/BacHaSoftware/sales_management">
         <img src="/bhs_sales_invoice/static/description/imgs/screen/total.png" alt="Setting">
     </a>
@@ -62,7 +61,6 @@
 🌟 <code>Billing Month</code>: Add eom_accumulation field: Select billing month. Default data when created is: If the creation date is before 5th of each month, it will be recorded as 15th of the previous month, after the 5th, take the current date.
 
 <div align="left">
-    <div align="center"><code>Refuse applicant</code></div>
     <a href="https://github.com/BacHaSoftware/sales_management">
         <img src="/bhs_sales_invoice/static/description/imgs/screen/uom.png" alt="Setting">
     </a>
@@ -71,7 +69,6 @@
 🌟 <code>Not Changing Unit Price</code>: Feature of not changing unit price when updating quantity in sale order lines
 
 <div align="left">
-    <div align="center"><code>Refuse applicant</code></div>
     <a href="https://github.com/BacHaSoftware/sales_management">
         <img src="/bhs_sales_invoice/static/description/imgs/screen/order_line.png" alt="Setting">
     </a>
@@ -80,7 +77,6 @@
 🌟 <code>Custom Report</code>: Create separate reporting menu based on eom_accumulation date. There is a report calculating revenue by project
 
 <div align="left">
-    <div align="center"><code>Refuse applicant</code></div>
     <a href="https://github.com/BacHaSoftware/sales_management">
         <img src="/bhs_sales_invoice/static/description/imgs/screen/report.png" alt="Setting">
     </a>
@@ -89,7 +85,6 @@
 🌟 <code>Default Invoice Month/Year</code>: When creating an invoice from sale order, select fields for month and for year according to eom_accumulation field of sale order
 
 <div align="left">
-    <div align="center"><code>Refuse applicant</code></div>
     <a href="https://github.com/BacHaSoftware/sales_management">
         <img src="/bhs_sales_invoice/static/description/imgs/screen/date.png" alt="Setting">
     </a>
@@ -98,7 +93,6 @@
 🌟 <code>Invoices Analysis</code>: Create a separate Invoices Analysis menu based on eom_accumulation date.
 
 <div align="left">
-    <div align="center"><code>Refuse applicant</code></div>
     <a href="https://github.com/BacHaSoftware/sales_management">
         <img src="/bhs_sales_invoice/static/description/imgs/screen/analysis.png" alt="Setting">
     </a>
@@ -116,7 +110,7 @@
 
 This module also depends on our other module:
 [Invoice Report](https://github.com/BacHaSoftware/customer_invoice_management)
-and <code>Custom for Sales (bhs_sales)</code>
+and [Custom for Sales](https://github.com/BacHaSoftware/advance_sale)
 
 ### Installation
 
