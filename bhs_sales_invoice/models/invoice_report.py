@@ -2,6 +2,7 @@
 
 from odoo import fields, api, models, _
 import datetime
+from odoo.tools.sql import SQL
 
 class AccountInvoiceReport(models.Model):
     _inherit = "account.invoice.report"
@@ -9,7 +10,10 @@ class AccountInvoiceReport(models.Model):
     eom_accumulation = fields.Date(string="EOM accumulation", help="End of Month Accumulation.", readonly=True)
 
     def _select(self):
-        return super()._select() + ", move.eom_accumulation as eom_accumulation"
+        return SQL(
+            "%s, move.eom_accumulation as eom_accumulation",
+            super()._select()
+        )
 
     @api.model
     def read_group(self, domain, fields, groupby, offset=0, limit=None, orderby=False, lazy=True):
